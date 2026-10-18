@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-hindi-serif {
+    font-family: 'Rozha One', 'Tiro Devanagari Hindi', serif;
+  }
+  .font-hindi-hand {
+    font-family: 'Kalam', cursive, sans-serif;
+  }
+  .font-hindi-body {
+    font-family: 'Tiro Devanagari Hindi', 'Poppins', serif;
+  }
+  .font-poetry {
+    font-family: 'Playfair Display', 'Rozha One', serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #14080e;
+}
+::-webkit-scrollbar-thumb {
+  background: #4a1525;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7a1d36;
+}
+
+/* Floating animation */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(4deg);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 8s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.65;
+  }
+}
+
+.animate-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}

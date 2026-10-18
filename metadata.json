@@ -1,0 +1,6 @@
+{
+  "name": "Ansuni Ankahi Bate - Hindi Poetry, Shayari & Stories",
+  "description": "A premier romantic Hindi poetry, Shayari, Kavita, and Love Stories portal with audio reciter, shareable quotes card generator, secure admin dashboard, and full Android app support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
